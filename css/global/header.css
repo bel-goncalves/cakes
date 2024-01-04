@@ -1,0 +1,83 @@
+.header-bg{
+    background: var(--cor-bg1);
+}
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 1.25rem;
+}
+
+.header-menu{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.header-menu a{
+    display: inline-block; 
+    padding: 8px 0px;
+    position: relative;
+    color: var(--cor-p6);
+}
+.header-menu a:hover,
+.header-menu a.ativo{
+    color: var(--branco);
+}
+
+@media (max-width: 800px){
+    .header{
+        font-size: 1rem;
+        gap: 8px;
+    }
+    .header-menu{
+        gap: 8px;
+    }
+    .header-menu a{
+        padding: 8px 12px;
+        border-radius: 8px;
+    }
+    .header-menu a.ativo,
+    .header-menu a:hover{
+        background: var(--cor-bg2);
+        color: var(--branco);
+    }
+}
+@media (max-width: 640px){
+    .header{
+        font-size: 1rem;
+        gap: 12px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    nav{
+        grid-column: 1/-1;
+    }
+    .github{
+        grid-row: 1;
+        grid-column: 3;
+        place-self: end;
+    }
+    .cakes{
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .header-menu {
+        gap: 8px;
+        justify-content: space-around;
+        place-content: center;
+    }
+    .header-menu a{
+        padding: 8px 12px;
+        gap: 4px;
+        border-radius: 8px;
+        background: var(--cor-bg2);
+        color: var(--branco);
+        justify-content: space-between;
+       }
+}
