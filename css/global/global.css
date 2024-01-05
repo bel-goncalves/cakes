@@ -31,14 +31,20 @@ a{
     text-transform: uppercase;
     color: var(--cor-p5);
     font: 400 1rem/1.5 "Lato", sans-serif;
+    letter-spacing: 0.020em;
 }
 
 .titulo{
     color: var(--branco);
-    font: 800 4rem/1.12 "Montserrat", sans-serif;
+    font: 800 4rem/1.125 "Montserrat", sans-serif;
 }
 
 .descricao{
     color: var(--cor-sub1);
     font: 400 1.5rem/1.5 "Lato", sans-serif;
+}
+
+.titulo-secundario{
+    color: var(--branco);
+    font: 800 3rem/1.125 "Montserrat", sans-serif;
 }

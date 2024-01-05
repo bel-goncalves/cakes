@@ -1,0 +1,22 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="24" height="24" fill="#1E1E1E"/>
+<g id="cakes | home" clip-path="url(#clip0_1_5)">
+<rect width="1440" height="1404" transform="translate(-156 -472)" fill="white"/>
+<g id="intro-home">
+<rect id="intro  bg" x="-156" y="-404" width="1440" height="416" fill="#301C20"/>
+<rect id="bg" x="-156" y="12" width="1440" height="103" fill="#1E1114"/>
+<g id="btn-descer">
+<rect id="Rectangle 55" x="-16" y="-16" width="56" height="56" rx="8" fill="#6A2B39"/>
+<g id="chevrons-down">
+<path id="Vector" d="M7 13L12 18L17 13" stroke="#DA5B78" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M7 6L12 11L17 6" stroke="#DA5B78" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_1_5">
+<rect width="1440" height="1404" fill="white" transform="translate(-156 -472)"/>
+</clipPath>
+</defs>
+</svg>

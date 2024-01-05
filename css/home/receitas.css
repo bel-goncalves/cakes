@@ -1,0 +1,79 @@
+.receitas-bg{
+    background: var(--cor-bg5);
+}
+
+.receitas-titulo{
+    padding-top: 36px;
+}
+
+.receitas-titulo .titulo-secundario{
+    margin-top: 8px;
+}
+
+.receitas-titulo .descricao{
+    margin-top: 8px;
+}
+
+.receitas-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.card{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background: var(--cor-bg4);
+    padding: 24px;
+    border-radius: 8px;
+}
+
+.card > .mini-titulo {
+    font-size: 0.8rem;
+}
+
+.titulo-card{
+    grid-column: 1/-1;
+    color: var(--branco);
+    font: 700 1.5rem/1.5 "Montserrat", sans-serif;
+    margin-top: 4px;
+}
+
+.card > .descricao{
+    grid-column: 1/-1;
+    font-size: 1.25rem;
+    color: var(--cor-sub2);
+    margin-top: 8px;
+}
+
+.nota-card{
+    font: 400 0.9rem/1.5 "Lato", sans-serif;
+    color: var(--cor-bg2);
+    justify-self: end;
+}
+
+.nome{
+    font: 400 1rem/1.5 "Montserrat", sans-serif;
+    color: var(--cor-sub1);
+}
+
+.avatar{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+
+.avatar-div{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 16px;
+}
+
+.carregar{
+    text-align: center;
+    color: var(--cor-p6);
+    font: 400 1rem/1.5 "Lato", sans-serif;
+}
