@@ -1,0 +1,32 @@
+footer{
+    text-align: center;
+    color: var(--branco);
+    font: 400 1.125rem/1.33 "Montserrat", sans-serif;
+}
+
+.footer-bg{
+    background: var(--cor-bg1);
+}
+
+.contato{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 12px;
+}
+
+.social{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+footer p{
+    color: var(--cor-p6);
+    padding-bottom: 20px;
+    margin-top: 12px;
+}
+
+.copyright{
+    padding-top: 20px;
+}

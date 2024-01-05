@@ -4,6 +4,9 @@
 /* header */
 @import "./global/header.css";
 
+/* footer  */
+@import "./global/footer.css";
+
 /* utilidades */
 @import "./utilidades/cores.css";
 

@@ -76,4 +76,5 @@
     text-align: center;
     color: var(--cor-p6);
     font: 400 1rem/1.5 "Lato", sans-serif;
+    padding-bottom: 64px;
 }
