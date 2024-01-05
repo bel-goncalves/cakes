@@ -5,9 +5,34 @@
 .introducao{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: end;
+    /* display: flex;
+    flex-direction: column; */
+}
+/* 
+.introducao-img{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: end;
+    gap: 16px;
+    /* max-width: 800px 
+} */
+
+.introducao-img{
+    flex-direction: column;
+    max-width: 800px;
+    column-count: 4;
+    column-gap: 16px;
+    /* justify-content: space-around; */
+    /* max-width: 800px; */
 }
 
-.btn{
+.introducao-img > figure > img {
+    margin-bottom: 14px;
+}
+
+.btn-bg{
     background: var(--cor-bg4);
     box-shadow: inset 0 -28px var(--cor-bg5);
 }
