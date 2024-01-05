@@ -6,3 +6,6 @@
 
 /* utilidades */
 @import "./utilidades/cores.css";
+
+/* home */
+@import "./home/introducao.css";
