@@ -23,10 +23,10 @@ footer{
 
 footer p{
     color: var(--cor-p6);
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     margin-top: 12px;
 }
 
 .copyright{
-    padding-top: 20px;
+    padding-top: 40px;
 }
