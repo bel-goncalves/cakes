@@ -48,3 +48,18 @@ a{
     color: var(--branco);
     font: 800 3rem/1.125 "Montserrat", sans-serif;
 }
+
+@media (max-width: 1150px){
+    .mini-titulo{
+    font-size: 0.8rem;
+    }  
+
+    .titulo{
+    font-size: 3.0rem;
+    }
+
+    .descricao{
+    font-size: 1.0rem;
+    max-width: 40ch;
+    }
+}

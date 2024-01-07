@@ -56,8 +56,43 @@
     transition: transform 0.2s;
     position: absolute;
     top: 510px;
+    cursor: pointer;
 }
 
 .button img:hover{
     transform: translateY(4px);
+    cursor: pointer;
+}
+
+@media (max-width: 1150px){
+    .introducao{
+        justify-items: start;
+        height: 400px;
+    }
+
+    .button{
+        top: 450px;
+    }
+}
+
+@media (max-width: 640px){
+    .button{
+        display: none;
+    }
+
+    .introducao-img{
+        display: none;
+    }
+
+    .introducao{
+        background: url(../../img/bolo-bg.jpg) no-repeat right 0px;
+        left: 0px;
+    }
+}
+
+@media (max-width: 600px){
+    .introducao{
+        background: none;
+        grid-template-columns: 1fr;
+    }
 }
