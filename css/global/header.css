@@ -10,7 +10,7 @@
     align-items: center;
     padding-top: 20px;
     padding-bottom: 20px;
-    font-size: 1.25rem;
+    font: 400 1rem "Montserrat", sans-serif;
 }
 
 .header-menu{
@@ -32,8 +32,7 @@
 
 @media (max-width: 800px){
     .header{
-        font-size: 1rem;
-        gap: 8px;
+        gap: 3px;
     }
     .header-menu{
         gap: 8px;
@@ -45,7 +44,7 @@
 
 @media (max-width: 640px){
     .header{
-        font-size: 1rem;
+        font-size: 0.9rem;
         gap: 12px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -63,16 +62,16 @@
         grid-row: 1;
     }
     .header-menu {
-        gap: 8px;
-        justify-content: space-around;
-        place-content: center;
+        place-content: space-evenly;
     }
     .header-menu a{
         padding: 8px 12px;
         gap: 4px;
         border-radius: 8px;
+       }
+    .header-menu a:hover,
+    .header-menu a.ativo{
         background: var(--cor-bg2);
         color: var(--branco);
-        justify-content: space-between;
-       }
+    }
 }
