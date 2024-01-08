@@ -62,4 +62,8 @@ a{
     font-size: 1.0rem;
     max-width: 40ch;
     }
+
+    .titulo-secundario{
+    font: 800 2rem/1.125 "Montserrat", sans-serif;
+    }
 }
